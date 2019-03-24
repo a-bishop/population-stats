@@ -3,7 +3,7 @@ import "./App.css";
 import BarChart from "./BarChart";
 import { COUNTRIES } from "./countries";
 
-const PROXY = "http://cors-anywhere.deploy.cs.camosun.bc.ca/";
+const PROXY = "https://morning-meadow-26294.herokuapp.com/";
 const PATH_BASE = "http://api.population.io:80/1.0";
 
 class Form extends Component {
