@@ -17,7 +17,7 @@ const BarChart = props => {
     .domain([0, highestVal])
     .range([0, MAX_HEIGHT - 30]);
 
-  const color = d3
+  const colour = d3
     .scaleLinear()
     .domain([0, highestVal])
     .range(["#c19898", "#4a4a48"]);
@@ -32,7 +32,7 @@ const BarChart = props => {
               key={country.name}
               country={country.name}
               population={country.population}
-              color={color(country.population)}
+              color={colour(country.population)}
               x={index * (BAR_WIDTH + BAR_MARGIN) + X_OFFSET}
               y={MAX_HEIGHT - scale(itemHeight)}
               width={BAR_WIDTH}

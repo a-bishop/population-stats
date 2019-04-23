@@ -3,8 +3,8 @@ import "./App.css";
 import BarChart from "./BarChart";
 import { COUNTRIES } from "./countries";
 
-const PROXY = "http://cors-anywhere.deploy.cs.camosun.bc.ca/";
-const PATH_BASE = "http://api.population.io:80/1.0";
+const PROXY = "https://cors-anywhere.herokuapp.com/";
+const PATH_BASE = "http://54.72.28.201:80/1.0";
 
 class Form extends Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class Form extends Component {
       selectedCountries: randomStartingCountries,
       populations: [],
       countryAndPop: [],
-      formSubmitted: false,
+      formSubmitted: false
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChangeCountry = this.handleChangeCountry.bind(this);
@@ -86,7 +86,7 @@ class Form extends Component {
         );
         this.setState({
           countryAndPop: countryPop,
-          formSubmitted: true,
+          formSubmitted: true
         });
       })
       .catch(err => {

@@ -4,8 +4,8 @@ import WorldPop from "./WorldPop";
 import Form from "./Form";
 import Footer from "./Footer";
 
-const PROXY = "http://cors-anywhere.deploy.cs.camosun.bc.ca/";
-const PATH_BASE = "http://api.population.io:80/1.0";
+const PROXY = "https://cors-anywhere.herokuapp.com/";
+const PATH_BASE = "http://54.72.28.201:80/1.0";
 const WORLD_POP_QUERY = "/population/World/today-and-tomorrow";
 
 class App extends Component {
