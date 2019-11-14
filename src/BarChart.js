@@ -5,6 +5,7 @@ import Chart from "./Chart";
 import Bar from "./Bar";
 
 const BarChart = props => {
+  console.log("props", props);
   const BAR_WIDTH = 100;
   const BAR_MARGIN = 30;
   const MAX_HEIGHT = 500;
@@ -29,8 +30,8 @@ const BarChart = props => {
           const itemHeight = country.population;
           return (
             <Bar
-              key={country.name}
-              country={country.name}
+              key={country.country}
+              country={country.country}
               population={country.population}
               color={colour(country.population)}
               x={index * (BAR_WIDTH + BAR_MARGIN) + X_OFFSET}

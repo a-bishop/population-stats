@@ -1,22 +1,22 @@
 import React, { Component } from "react";
 import "./App.css";
 import BarChart from "./BarChart";
-import { COUNTRIES } from "./countries";
-
-const PROXY = "https://cors-anywhere.herokuapp.com/";
-const PATH_BASE = "http://54.72.28.201:80/1.0";
+import { countryPopulations } from "./countryPopulations";
+import { countries } from "./countries";
 
 class Form extends Component {
   constructor(props) {
     let randomStartingCountries = [];
     for (let i = 0; i < 4; i++) {
       randomStartingCountries.push(
-        COUNTRIES[Math.floor(Math.random() * COUNTRIES.length)]
+        countryPopulations[
+          Math.floor(Math.random() * countryPopulations.length)
+        ].country
       );
     }
     super(props);
     this.state = {
-      countries: COUNTRIES,
+      countries,
       selectedCountries: randomStartingCountries,
       populations: [],
       countryAndPop: [],
@@ -24,7 +24,6 @@ class Form extends Component {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChangeCountry = this.handleChangeCountry.bind(this);
-    this.handleHTTPErrors = this.handleHTTPErrors.bind(this);
     this.handleAddCountry = this.handleAddCountry.bind(this);
     this.handleRemoveCountry = this.handleRemoveCountry.bind(this);
   }
@@ -59,44 +58,17 @@ class Form extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    let dt = new Date();
-    let dateNow =
-      dt.getFullYear() + "-" + (dt.getMonth() + 1) + "-" + dt.getDate();
-    let promises = [];
+    let countryPops = [];
     for (let country of this.state.selectedCountries) {
-      let query = `/population/${country}/${dateNow}`;
-      let promise = fetch(`${PROXY}${PATH_BASE}${query}`)
-        .then(response => this.handleHTTPErrors(response))
-        .then(response => response.json());
-      promises.push(promise);
+      const countryPopFiltered = countryPopulations.filter(
+        obj => obj.country === country
+      );
+      countryPops.push(countryPopFiltered[0]);
     }
-    Promise.all(promises)
-      .then(results => {
-        let newPops = [];
-        for (let result of results) {
-          newPops.push(result.total_population.population);
-        }
-        this.setState({
-          populations: newPops
-        });
-        let arr1 = this.state.selectedCountries;
-        let arr2 = this.state.populations;
-        let countryPop = arr1.map((country, index) =>
-          Object.assign({ name: country, population: arr2[index] })
-        );
-        this.setState({
-          countryAndPop: countryPop,
-          formSubmitted: true
-        });
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }
-
-  handleHTTPErrors(response) {
-    if (!response.ok) throw Error(response.status + ": " + response.statusText);
-    return response;
+    this.setState({
+      countryAndPop: countryPops,
+      formSubmitted: true
+    });
   }
 
   render() {
