@@ -4,4 +4,4 @@ A single page application built with React and the D3 library. Compares current 
 
 Data was previously consumed from the World Population API, which is no longer available. The populations are now hardcoded at estimated 2019 values for demonstration purposes.
 
-https://andrewnbishop.com/population-stats/
+[Demo](https://andrewnbishop.com/population-stats/)
