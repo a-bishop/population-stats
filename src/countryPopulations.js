@@ -1,918 +1,770 @@
 export const countryPopulations = [
   {
-    country: "Afghanistan",
+    country: 'Afghanistan',
     population: 35530081
   },
   {
-    country: "Albania",
+    country: 'Albania',
     population: 2930187
   },
   {
-    country: "Algeria",
+    country: 'Algeria',
     population: 41318142
   },
   {
-    country: "American Samoa",
-    population: 55641
-  },
-  {
-    country: "Andorra",
-    population: 76965
-  },
-  {
-    country: "Angola",
+    country: 'Angola',
     population: 29784193
   },
   {
-    country: "Anguilla",
-    population: 14909
-  },
-  {
-    country: "Antigua and Barbuda",
+    country: 'Antigua and Barbuda',
     population: 102012
   },
   {
-    country: "Argentina",
+    country: 'Argentina',
     population: 44271041
   },
   {
-    country: "Armenia",
+    country: 'Armenia',
     population: 2930450
   },
   {
-    country: "Aruba",
-    population: 105264
-  },
-  {
-    country: "Australia",
+    country: 'Australia',
     population: 24450561
   },
   {
-    country: "Austria",
+    country: 'Austria',
     population: 8735453
   },
   {
-    country: "Azerbaijan",
+    country: 'Azerbaijan',
     population: 9827589
   },
   {
-    country: "Bahamas",
+    country: 'Bahamas',
     population: 395361
   },
   {
-    country: "Bahrain",
+    country: 'Bahrain',
     population: 1492584
   },
   {
-    country: "Bangladesh",
+    country: 'Bangladesh',
     population: 164669751
   },
   {
-    country: "Barbados",
+    country: 'Barbados',
     population: 285719
   },
   {
-    country: "Belarus",
+    country: 'Belarus',
     population: 9468338
   },
   {
-    country: "Belgium",
+    country: 'Belgium',
     population: 11429336
   },
   {
-    country: "Belize",
+    country: 'Belize',
     population: 374681
   },
   {
-    country: "Benin",
+    country: 'Benin',
     population: 11175692
   },
   {
-    country: "Bermuda",
+    country: 'Bermuda',
     population: 61349
   },
   {
-    country: "Bhutan",
+    country: 'Bhutan',
     population: 807610
   },
   {
-    country: "Bolivia",
+    country: 'Bolivia',
     population: 11051600
   },
   {
-    country: "Bosnia and Herzegovina",
+    country: 'Bosnia and Herzegovina',
     population: 3507017
   },
   {
-    country: "Botswana",
+    country: 'Botswana',
     population: 2291661
   },
   {
-    country: "Brazil",
+    country: 'Brazil',
     population: 209288278
   },
   {
-    country: "Brunei",
+    country: 'Brunei',
     population: 428697
   },
   {
-    country: "Bulgaria",
+    country: 'Bulgaria',
     population: 7084571
   },
   {
-    country: "Burkina Faso",
+    country: 'Burkina Faso',
     population: 19193382
   },
   {
-    country: "Burundi",
+    country: 'Burundi',
     population: 10864245
   },
   {
-    country: "Cambodia",
+    country: 'Cambodia',
     population: 16005373
   },
   {
-    country: "Cameroon",
+    country: 'Cameroon',
     population: 24053727
   },
   {
-    country: "Canada",
+    country: 'Canada',
     population: 36624199
   },
   {
-    country: "Cape Verde",
+    country: 'Cape Verde',
     population: 546388
   },
   {
-    country: "Cayman Islands",
-    population: 61559
-  },
-  {
-    country: "Central African Republic",
+    country: 'Central African Republic',
     population: 4659080
   },
   {
-    country: "Chad",
+    country: 'Chad',
     population: 14899994
   },
   {
-    country: "Chile",
+    country: 'Chile',
     population: 18054726
   },
   {
-    country: "China",
+    country: 'China',
     population: 1409517397
   },
   {
-    country: "Christmas Island",
-    population: 2500
-  },
-  {
-    country: "Cocos (Keeling) Islands",
-    population: 600
-  },
-  {
-    country: "Colombia",
+    country: 'Colombia',
     population: 49065615
   },
   {
-    country: "Comoros",
-    population: 813912
-  },
-  {
-    country: "Congo",
+    country: 'Congo',
     population: 5260750
   },
   {
-    country: "Cook Islands",
+    country: 'Cook Islands',
     population: 17380
   },
   {
-    country: "Costa Rica",
+    country: 'Costa Rica',
     population: 4905769
   },
   {
-    country: "Croatia",
+    country: 'Croatia',
     population: 4189353
   },
   {
-    country: "Cuba",
+    country: 'Cuba',
     population: 11484636
   },
   {
-    country: "Cyprus",
+    country: 'Cyprus',
     population: 1179551
   },
   {
-    country: "Czech Republic",
+    country: 'Czech Republic',
     population: 10618303
   },
   {
-    country: "Denmark",
+    country: 'Denmark',
     population: 5733551
   },
   {
-    country: "Djibouti",
+    country: 'Djibouti',
     population: 956985
   },
   {
-    country: "Dominica",
+    country: 'Dominica',
     population: 73925
   },
   {
-    country: "Dominican Republic",
+    country: 'Dominican Republic',
     population: 10766998
   },
   {
-    country: "East Timor",
+    country: 'East Timor',
     population: 1296311
   },
   {
-    country: "Ecuador",
+    country: 'Ecuador',
     population: 16624858
   },
   {
-    country: "Egypt",
+    country: 'Egypt',
     population: 97553151
   },
   {
-    country: "El Salvador",
+    country: 'El Salvador',
     population: 6377853
   },
   {
-    country: "Equatorial Guinea",
+    country: 'Equatorial Guinea',
     population: 1267689
   },
   {
-    country: "Eritrea",
+    country: 'Eritrea',
     population: 5068831
   },
   {
-    country: "Estonia",
+    country: 'Estonia',
     population: 1309632
   },
   {
-    country: "Ethiopia",
+    country: 'Ethiopia',
     population: 104957438
   },
   {
-    country: "Falkland Islands",
-    population: 2910
-  },
-  {
-    country: "Faroe Islands",
-    population: 49290
-  },
-  {
-    country: "Fiji Islands",
+    country: 'Fiji',
     population: 905502
   },
   {
-    country: "Finland",
+    country: 'Finland',
     population: 5523231
   },
   {
-    country: "France",
+    country: 'France',
     population: 64979548
   },
   {
-    country: "French Guiana",
-    population: 282731
-  },
-  {
-    country: "French Polynesia",
+    country: 'French Polynesia',
     population: 283007
   },
   {
-    country: "Gabon",
+    country: 'Gabon',
     population: 2025137
   },
   {
-    country: "Gambia",
+    country: 'Gambia',
     population: 2100568
   },
   {
-    country: "Georgia",
+    country: 'Georgia',
     population: 3912061
   },
   {
-    country: "Germany",
+    country: 'Germany',
     population: 82114224
   },
   {
-    country: "Ghana",
+    country: 'Ghana',
     population: 28833629
   },
   {
-    country: "Gibraltar",
+    country: 'Gibraltar',
     population: 34571
   },
   {
-    country: "Greece",
+    country: 'Greece',
     population: 11159773
   },
   {
-    country: "Greenland",
+    country: 'Greenland',
     population: 56480
   },
   {
-    country: "Grenada",
+    country: 'Grenada',
     population: 107825
   },
   {
-    country: "Guadeloupe",
+    country: 'Guadeloupe',
     population: 449568
   },
   {
-    country: "Guam",
-    population: 164229
-  },
-  {
-    country: "Guatemala",
+    country: 'Guatemala',
     population: 16913503
   },
   {
-    country: "Guinea",
+    country: 'Guinea',
     population: 12717176
   },
   {
-    country: "Guinea-Bissau",
+    country: 'Guinea-Bissau',
     population: 1861283
   },
   {
-    country: "Guyana",
+    country: 'Guyana',
     population: 777859
   },
   {
-    country: "Haiti",
+    country: 'Haiti',
     population: 10981229
   },
   {
-    country: "Holy See (Vatican City State)",
-    population: 1000
-  },
-  {
-    country: "Honduras",
+    country: 'Honduras',
     population: 9265067
   },
   {
-    country: "Hong Kong",
+    country: 'Hong Kong',
     population: 7364883
   },
   {
-    country: "Hungary",
+    country: 'Hungary',
     population: 9721559
   },
   {
-    country: "Iceland",
+    country: 'Iceland',
     population: 335025
   },
   {
-    country: "India",
+    country: 'India',
     population: 1339180127
   },
   {
-    country: "Indonesia",
+    country: 'Indonesia',
     population: 263991379
   },
   {
-    country: "Iran",
+    country: 'Iran',
     population: 81162788
   },
   {
-    country: "Iraq",
+    country: 'Iraq',
     population: 38274618
   },
   {
-    country: "Ireland",
+    country: 'Ireland',
     population: 4761657
   },
   {
-    country: "Israel",
+    country: 'Israel',
     population: 8321570
   },
   {
-    country: "Italy",
+    country: 'Italy',
     population: 59359900
   },
   {
-    country: "Ivory Coast",
+    country: "Côte d'Ivoire",
     population: 24294750
   },
   {
-    country: "Jamaica",
+    country: 'Jamaica',
     population: 2890299
   },
   {
-    country: "Japan",
+    country: 'Japan',
     population: 127484450
   },
   {
-    country: "Jordan",
+    country: 'Jordan',
     population: 9702353
   },
   {
-    country: "Kazakhstan",
+    country: 'Kazakhstan',
     population: 18204499
   },
   {
-    country: "Kenya",
+    country: 'Kenya',
     population: 49699862
   },
   {
-    country: "Kiribati",
+    country: 'Kiribati',
     population: 116398
   },
   {
-    country: "Kuwait",
+    country: 'Kuwait',
     population: 4136528
   },
   {
-    country: "Kyrgyzstan",
+    country: 'Kyrgyzstan',
     population: 6045117
   },
   {
-    country: "Laos",
+    country: 'Laos',
     population: 6858160
   },
   {
-    country: "Latvia",
+    country: 'Latvia',
     population: 1949670
   },
   {
-    country: "Lebanon",
+    country: 'Lebanon',
     population: 6082357
   },
   {
-    country: "Lesotho",
+    country: 'Lesotho',
     population: 2233339
   },
   {
-    country: "Liberia",
+    country: 'Liberia',
     population: 4731906
   },
   {
-    country: "Libyan Arab Jamahiriya",
+    country: 'Libya',
     population: 5605000
   },
   {
-    country: "Liechtenstein",
-    population: 37922
-  },
-  {
-    country: "Lithuania",
+    country: 'Lithuania',
     population: 2890297
   },
   {
-    country: "Luxembourg",
+    country: 'Luxembourg',
     population: 583455
   },
   {
-    country: "Macao",
+    country: 'Macao',
     population: 473000
   },
   {
-    country: "North Macedonia",
+    country: 'North Macedonia',
     population: 2024000
   },
   {
-    country: "Madagascar",
+    country: 'Madagascar',
     population: 25570895
   },
   {
-    country: "Malawi",
+    country: 'Malawi',
     population: 18622104
   },
   {
-    country: "Malaysia",
+    country: 'Malaysia',
     population: 31624264
   },
   {
-    country: "Maldives",
+    country: 'Maldives',
     population: 436330
   },
   {
-    country: "Mali",
+    country: 'Mali',
     population: 18541980
   },
   {
-    country: "Malta",
+    country: 'Malta',
     population: 430835
   },
   {
-    country: "Marshall Islands",
+    country: 'Marshall Islands',
     population: 53127
   },
   {
-    country: "Martinique",
-    population: 384896
-  },
-  {
-    country: "Mauritania",
+    country: 'Mauritania',
     population: 4420184
   },
   {
-    country: "Mauritius",
+    country: 'Mauritius',
     population: 1265138
   },
   {
-    country: "Mayotte",
-    population: 253045
-  },
-  {
-    country: "Mexico",
+    country: 'Mexico',
     population: 129163276
   },
   {
-    country: "Moldova",
+    country: 'Moldova',
     population: 4051212
   },
   {
-    country: "Monaco",
+    country: 'Monaco',
     population: 38695
   },
   {
-    country: "Mongolia",
+    country: 'Mongolia',
     population: 3075647
   },
   {
-    country: "Montserrat",
+    country: 'Montserrat',
     population: 5177
   },
   {
-    country: "Morocco",
+    country: 'Morocco',
     population: 35739580
   },
   {
-    country: "Mozambique",
+    country: 'Mozambique',
     population: 29668834
   },
   {
-    country: "Myanmar",
+    country: 'Myanmar',
     population: 53370609
   },
   {
-    country: "Namibia",
+    country: 'Namibia',
     population: 2533794
   },
   {
-    country: "Nauru",
+    country: 'Nauru',
     population: 11359
   },
   {
-    country: "Nepal",
+    country: 'Nepal',
     population: 29304998
   },
   {
-    country: "Netherlands",
+    country: 'Netherlands',
     population: 17035938
   },
   {
-    country: "Netherlands Antilles",
-    population: 217000
-  },
-  {
-    country: "New Caledonia",
-    population: 276255
-  },
-  {
-    country: "New Zealand",
+    country: 'New Zealand',
     population: 4705818
   },
   {
-    country: "Nicaragua",
+    country: 'Nicaragua',
     population: 6217581
   },
   {
-    country: "Niger",
+    country: 'Niger',
     population: 21477348
   },
   {
-    country: "Nigeria",
+    country: 'Nigeria',
     population: 190886311
   },
   {
-    country: "Niue",
-    population: 1618
-  },
-  {
-    country: "Norfolk Island",
-    population: 2000
-  },
-  {
-    country: "North Korea",
+    country: 'North Korea',
     population: 25490965
   },
   {
-    country: "Northern Mariana Islands",
-    population: 55144
-  },
-  {
-    country: "Norway",
+    country: 'Norway',
     population: 5305383
   },
   {
-    country: "Oman",
+    country: 'Oman',
     population: 4636262
   },
   {
-    country: "Pakistan",
+    country: 'Pakistan',
     population: 197015955
   },
   {
-    country: "Palau",
+    country: 'Palau',
     population: 21729
   },
   {
-    country: "Palestine",
+    country: 'Palestine',
     population: 4920724
   },
   {
-    country: "Panama",
+    country: 'Panama',
     population: 4098587
   },
   {
-    country: "Papua New Guinea",
+    country: 'Papua New Guinea',
     population: 8251162
   },
   {
-    country: "Paraguay",
+    country: 'Paraguay',
     population: 6811297
   },
   {
-    country: "Peru",
+    country: 'Peru',
     population: 32165485
   },
   {
-    country: "Philippines",
+    country: 'Philippines',
     population: 104918090
   },
   {
-    country: "Pitcairn",
-    population: 50
-  },
-  {
-    country: "Poland",
+    country: 'Poland',
     population: 38170712
   },
   {
-    country: "Portugal",
+    country: 'Portugal',
     population: 10329506
   },
   {
-    country: "Puerto Rico",
+    country: 'Puerto Rico',
     population: 3663131
   },
   {
-    country: "Qatar",
+    country: 'Qatar',
     population: 2639211
   },
   {
-    country: "Reunion",
-    population: 699000
-  },
-  {
-    country: "Romania",
+    country: 'Romania',
     population: 19679306
   },
   {
-    country: "Russian Federation",
+    country: 'Russian Federation',
     population: 143989754
   },
   {
-    country: "Rwanda",
+    country: 'Rwanda',
     population: 12208407
   },
   {
-    country: "Saint Helena",
-    population: 4049
-  },
-  {
-    country: "Saint Kitts and Nevis",
-    population: 55345
-  },
-  {
-    country: "Saint Lucia",
-    population: 178844
-  },
-  {
-    country: "Saint Pierre and Miquelon",
-    population: 6320
-  },
-  {
-    country: "Saint Vincent and the Grenadines",
-    population: 109897
-  },
-  {
-    country: "Samoa",
+    country: 'Samoa',
     population: 196440
   },
   {
-    country: "San Marino",
-    population: 33400
-  },
-  {
-    country: "Sao Tome and Principe",
-    population: 204327
-  },
-  {
-    country: "Saudi Arabia",
+    country: 'Saudi Arabia',
     population: 32938213
   },
   {
-    country: "Senegal",
+    country: 'Senegal',
     population: 15850567
   },
   {
-    country: "Seychelles",
-    population: 94737
-  },
-  {
-    country: "Sierra Leone",
+    country: 'Sierra Leone',
     population: 7557212
   },
   {
-    country: "Singapore",
+    country: 'Singapore',
     population: 5708844
   },
   {
-    country: "Slovakia",
+    country: 'Slovakia',
     population: 5447662
   },
   {
-    country: "Slovenia",
+    country: 'Slovenia',
     population: 2079976
   },
   {
-    country: "Solomon Islands",
+    country: 'Solomon Islands',
     population: 611343
   },
   {
-    country: "Somalia",
+    country: 'Somalia',
     population: 14742523
   },
   {
-    country: "South Africa",
+    country: 'South Africa',
     population: 56717156
   },
   {
-    country: "South Korea",
+    country: 'South Korea',
     population: 50982212
   },
   {
-    country: "South Sudan",
+    country: 'South Sudan',
     population: 12575714
   },
   {
-    country: "Spain",
+    country: 'Spain',
     population: 46354321
   },
   {
-    country: "SriLanka",
+    country: 'SriLanka',
     population: 20876917
   },
   {
-    country: "Sudan",
+    country: 'Sudan',
     population: 40533330
   },
   {
-    country: "Suriname",
+    country: 'Suriname',
     population: 563402
   },
   {
-    country: "Svalbard and Jan Mayen",
-    population: 3200
-  },
-  {
-    country: "Swaziland",
+    country: 'Swaziland',
     population: 1008000
   },
   {
-    country: "Sweden",
+    country: 'Sweden',
     population: 9910701
   },
   {
-    country: "Switzerland",
+    country: 'Switzerland',
     population: 8476005
   },
   {
-    country: "Syria",
+    country: 'Syria',
     population: 18269868
   },
   {
-    country: "Tajikistan",
+    country: 'Tajikistan',
     population: 8921343
   },
   {
-    country: "Tanzania",
+    country: 'Tanzania',
     population: 57310019
   },
   {
-    country: "Thailand",
+    country: 'Thailand',
     population: 69037513
   },
   {
-    country: "Togo",
+    country: 'Togo',
     population: 7797694
   },
   {
-    country: "Tokelau",
-    population: 1300
-  },
-  {
-    country: "Tonga",
+    country: 'Tonga',
     population: 108020
   },
   {
-    country: "Trinidad and Tobago",
+    country: 'Trinidad and Tobago',
     population: 1369125
   },
   {
-    country: "Tunisia",
+    country: 'Tunisia',
     population: 11532127
   },
   {
-    country: "Turkey",
+    country: 'Turkey',
     population: 80745020
   },
   {
-    country: "Turkmenistan",
+    country: 'Turkmenistan',
     population: 5758075
   },
   {
-    country: "Turks and Caicos Islands",
-    population: 35446
-  },
-  {
-    country: "Tuvalu",
+    country: 'Tuvalu',
     population: 11192
   },
   {
-    country: "Uganda",
+    country: 'Uganda',
     population: 42862958
   },
   {
-    country: "Ukraine",
+    country: 'Ukraine',
     population: 44222947
   },
   {
-    country: "United Arab Emirates",
+    country: 'United Arab Emirates',
     population: 9400145
   },
   {
-    country: "United Kingdom",
+    country: 'United Kingdom',
     population: 66181585
   },
   {
-    country: "United States",
+    country: 'United States',
     population: 324459463
   },
   {
-    country: "Uruguay",
+    country: 'Uruguay',
     population: 3456750
   },
   {
-    country: "Uzbekistan",
+    country: 'Uzbekistan',
     population: 31910641
   },
   {
-    country: "Vanuatu",
+    country: 'Vanuatu',
     population: 276244
   },
   {
-    country: "Venezuela",
+    country: 'Venezuela',
     population: 31977065
   },
   {
-    country: "Vietnam",
+    country: 'Vietnam',
     population: 95540800
   },
   {
-    country: "Virgin Islands, British",
-    population: 31196
-  },
-  {
-    country: "Wallis and Futuna",
-    population: 11773
-  },
-  {
-    country: "Western Sahara",
-    population: 552628
-  },
-  {
-    country: "Yemen",
+    country: 'Yemen',
     population: 28250420
   },
   {
-    country: "Yugoslavia",
+    country: 'Yugoslavia',
     population: 10640000
   },
   {
-    country: "Zambia",
+    country: 'Zambia',
     population: 17094130
   },
   {
-    country: "Zimbabwe",
+    country: 'Zimbabwe',
     population: 16529904
   }
 ];
